@@ -16,7 +16,7 @@ x=det(i); %determinant of i
 y=-det(j); %determinant of j
 z=det(k); %determinant of k
 
-fprintf('The cross product in vector cartesian form is <%4.2fi, %4.2fj, %4.2fk>\n', x, y, z)
+fprintf('The cross product in vector cartesian form is <%4.2fi - %4.2fj + %4.2fk>\n', x, y, z)
 m=sqrt(x^2+y^2+z^2);
 
 al=acosd(x/m); %alpha coordinate direction angle w/ x axis
