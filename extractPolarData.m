@@ -5,7 +5,7 @@
 %   @return mach - the mach number of the simulation
 %   @return reynoldsNumber - the reynolds number the simulation was run at
 %   @return nCrit - nCrit value
-function [ data, mach, reynoldsNumber, nCrit ] = extractPolarData( filename )
+function [ data, mach, reynoldsNumber, nCrit ] = extractPolarData(filename)
 % the simulation data is organized in the following columns
 % alpha,CL,CD,CDp,Cm,Top Xtr,Bot Xtr,Cpmin,Chinge,XCp   
 
