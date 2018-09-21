@@ -3,7 +3,7 @@ clear,clc
 
 %graphs polar data Cl v. Cd and Cl v. Alpha
 
-[ data, mach, reynoldsNumber, nCrit ] = extractPolarData('NACA60.txt'); %extracts xflr5 polar data, converts into matlab data
+[ data, mach, reynoldsNumber, nCrit ] = extractPolarData('polardataXFLR5.txt'); %extracts xflr5 polar data, converts into matlab data
 
 figure(1)
 plot(data(:,1),data(:,2))
