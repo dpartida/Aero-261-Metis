@@ -30,7 +30,7 @@ ratio = a/a0
 Cd0=0.00485
 for i=1:45
     Cl(1,i)=ratio*data(i,2);
-    Cd(1,i)=Cd0+K*(Cl(1,i))^2
+    Cd(1,i)=Cd0+K*(Cl(1,i))^2;
 end
 figure(3)
 plot(data(:,1),Cl)
