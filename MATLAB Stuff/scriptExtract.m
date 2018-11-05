@@ -34,12 +34,12 @@ for i=1:45
 end
 figure(3)
 plot(data(:,1),Cl)
-title('Cl v. Alpha 3D Wing')
+title('CL v. Alpha 3D Wing')
 xlabel('Alpha')
 ylabel('Cl')
 Cl(Cl<0)=0;
 figure(4)
 plot(Cd,Cl)
-title('Cl v. Cd 3D Wing')
+title('CL v. CD 3D Wing')
 xlabel('Cd')
 ylabel('Cl')
